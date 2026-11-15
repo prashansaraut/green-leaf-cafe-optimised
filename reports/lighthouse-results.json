@@ -1,0 +1,389 @@
+{
+  "before-mobile": {
+    "scores": {
+      "performance": 100,
+      "accessibility": 58,
+      "bestPractices": 92,
+      "seo": 82
+    },
+    "metrics": {
+      "fcp": 1406,
+      "lcp": 1406,
+      "tbt": 0,
+      "cls": 0.005,
+      "si": 1851
+    },
+    "opportunities": [
+      {
+        "title": "Avoid multiple page redirects",
+        "savings": "789ms"
+      }
+    ],
+    "diagnostics": [
+      "Network Requests",
+      "Network Round Trip Times",
+      "Server Backend Latencies",
+      "Tasks",
+      "Resources Summary",
+      "Avoid large layout shifts",
+      "Avoid long main-thread tasks",
+      "Ensure CSP is effective against XSS attacks",
+      "Use a strong HSTS policy",
+      "Ensure proper origin isolation with COOP",
+      "Mitigate clickjacking with XFO or CSP",
+      "Mitigate DOM-based XSS with Trusted Types",
+      "Baseline Features",
+      "Optimize DOM size"
+    ],
+    "failedA11y": [
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio."
+      },
+      {
+        "id": "html-has-lang",
+        "title": "`<html>` element does not have a `[lang]` attribute"
+      },
+      {
+        "id": "image-alt",
+        "title": "Image elements do not have `[alt]` attributes"
+      },
+      {
+        "id": "landmark-one-main",
+        "title": "Document does not have a main landmark."
+      }
+    ],
+    "medianRunFile": "before-mobile-3.report.json",
+    "allRuns": [
+      {
+        "file": "before-mobile-1.report.json",
+        "scores": {
+          "performance": 100,
+          "accessibility": 58,
+          "bestPractices": 92,
+          "seo": 82
+        },
+        "metrics": {
+          "fcp": 1417,
+          "lcp": 1417,
+          "tbt": 0,
+          "cls": 0.005,
+          "si": 1851
+        }
+      },
+      {
+        "file": "before-mobile-2.report.json",
+        "scores": {
+          "performance": 100,
+          "accessibility": 58,
+          "bestPractices": 92,
+          "seo": 82
+        },
+        "metrics": {
+          "fcp": 1370,
+          "lcp": 1370,
+          "tbt": 0,
+          "cls": 0.005,
+          "si": 2007
+        }
+      },
+      {
+        "file": "before-mobile-3.report.json",
+        "scores": {
+          "performance": 100,
+          "accessibility": 58,
+          "bestPractices": 92,
+          "seo": 82
+        },
+        "metrics": {
+          "fcp": 1406,
+          "lcp": 1406,
+          "tbt": 0,
+          "cls": 0.009,
+          "si": 1795
+        }
+      }
+    ]
+  },
+  "before-desktop": {
+    "scores": {
+      "performance": 100,
+      "accessibility": 58,
+      "bestPractices": 92,
+      "seo": 82
+    },
+    "metrics": {
+      "fcp": 396,
+      "lcp": 396,
+      "tbt": 0,
+      "cls": 0.021,
+      "si": 615
+    },
+    "opportunities": [
+      {
+        "title": "Avoid multiple page redirects",
+        "savings": "223ms"
+      }
+    ],
+    "diagnostics": [
+      "Network Requests",
+      "Network Round Trip Times",
+      "Server Backend Latencies",
+      "Tasks",
+      "Resources Summary",
+      "Avoid large layout shifts",
+      "Ensure CSP is effective against XSS attacks",
+      "Use a strong HSTS policy",
+      "Ensure proper origin isolation with COOP",
+      "Mitigate clickjacking with XFO or CSP",
+      "Mitigate DOM-based XSS with Trusted Types",
+      "Baseline Features",
+      "Optimize DOM size"
+    ],
+    "failedA11y": [
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio."
+      },
+      {
+        "id": "html-has-lang",
+        "title": "`<html>` element does not have a `[lang]` attribute"
+      },
+      {
+        "id": "image-alt",
+        "title": "Image elements do not have `[alt]` attributes"
+      },
+      {
+        "id": "landmark-one-main",
+        "title": "Document does not have a main landmark."
+      }
+    ],
+    "medianRunFile": "before-desktop-1.report.json",
+    "allRuns": [
+      {
+        "file": "before-desktop-1.report.json",
+        "scores": {
+          "performance": 100,
+          "accessibility": 58,
+          "bestPractices": 92,
+          "seo": 82
+        },
+        "metrics": {
+          "fcp": 396,
+          "lcp": 396,
+          "tbt": 0,
+          "cls": 0.021,
+          "si": 615
+        }
+      },
+      {
+        "file": "before-desktop-2.report.json",
+        "scores": {
+          "performance": 100,
+          "accessibility": 58,
+          "bestPractices": 92,
+          "seo": 82
+        },
+        "metrics": {
+          "fcp": 400,
+          "lcp": 400,
+          "tbt": 0,
+          "cls": 0.027,
+          "si": 694
+        }
+      },
+      {
+        "file": "before-desktop-3.report.json",
+        "scores": {
+          "performance": 100,
+          "accessibility": 58,
+          "bestPractices": 92,
+          "seo": 82
+        },
+        "metrics": {
+          "fcp": 391,
+          "lcp": 391,
+          "tbt": 0,
+          "cls": 0,
+          "si": 487
+        }
+      }
+    ]
+  },
+  "after-mobile": {
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "bestPractices": 96,
+      "seo": 100
+    },
+    "metrics": {
+      "fcp": 1188,
+      "lcp": 1369,
+      "tbt": 10,
+      "cls": 0,
+      "si": 1188
+    },
+    "opportunities": [
+      {
+        "title": "Avoid multiple page redirects",
+        "savings": "791ms"
+      }
+    ],
+    "diagnostics": [
+      "Network Requests",
+      "Network Round Trip Times",
+      "Server Backend Latencies",
+      "Tasks",
+      "Resources Summary",
+      "Avoid long main-thread tasks",
+      "Ensure CSP is effective against XSS attacks",
+      "Use a strong HSTS policy",
+      "Ensure proper origin isolation with COOP",
+      "Mitigate clickjacking with XFO or CSP",
+      "Mitigate DOM-based XSS with Trusted Types",
+      "Baseline Features",
+      "Optimize DOM size"
+    ],
+    "failedA11y": [],
+    "medianRunFile": "after-mobile-1.report.json",
+    "allRuns": [
+      {
+        "file": "after-mobile-1.report.json",
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "bestPractices": 96,
+          "seo": 100
+        },
+        "metrics": {
+          "fcp": 1244,
+          "lcp": 1369,
+          "tbt": 37,
+          "cls": 0,
+          "si": 1244
+        }
+      },
+      {
+        "file": "after-mobile-2.report.json",
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "bestPractices": 96,
+          "seo": 100
+        },
+        "metrics": {
+          "fcp": 1139,
+          "lcp": 1456,
+          "tbt": 0,
+          "cls": 0,
+          "si": 1139
+        }
+      },
+      {
+        "file": "after-mobile-3.report.json",
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "bestPractices": 96,
+          "seo": 100
+        },
+        "metrics": {
+          "fcp": 1188,
+          "lcp": 1312,
+          "tbt": 10,
+          "cls": 0,
+          "si": 1188
+        }
+      }
+    ]
+  },
+  "after-desktop": {
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "bestPractices": 96,
+      "seo": 100
+    },
+    "metrics": {
+      "fcp": 341,
+      "lcp": 394,
+      "tbt": 0,
+      "cls": 0,
+      "si": 343
+    },
+    "opportunities": [
+      {
+        "title": "Avoid multiple page redirects",
+        "savings": "229ms"
+      }
+    ],
+    "diagnostics": [
+      "Network Requests",
+      "Network Round Trip Times",
+      "Server Backend Latencies",
+      "Tasks",
+      "Resources Summary",
+      "Avoid long main-thread tasks",
+      "Ensure CSP is effective against XSS attacks",
+      "Use a strong HSTS policy",
+      "Ensure proper origin isolation with COOP",
+      "Mitigate clickjacking with XFO or CSP",
+      "Mitigate DOM-based XSS with Trusted Types",
+      "Baseline Features",
+      "Optimize DOM size"
+    ],
+    "failedA11y": [],
+    "medianRunFile": "after-desktop-1.report.json",
+    "allRuns": [
+      {
+        "file": "after-desktop-1.report.json",
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "bestPractices": 96,
+          "seo": 100
+        },
+        "metrics": {
+          "fcp": 341,
+          "lcp": 394,
+          "tbt": 0,
+          "cls": 0,
+          "si": 346
+        }
+      },
+      {
+        "file": "after-desktop-2.report.json",
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "bestPractices": 96,
+          "seo": 100
+        },
+        "metrics": {
+          "fcp": 343,
+          "lcp": 414,
+          "tbt": 0,
+          "cls": 0,
+          "si": 343
+        }
+      },
+      {
+        "file": "after-desktop-3.report.json",
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "bestPractices": 96,
+          "seo": 100
+        },
+        "metrics": {
+          "fcp": 335,
+          "lcp": 385,
+          "tbt": 0,
+          "cls": 0,
+          "si": 335
+        }
+      }
+    ]
+  }
+}

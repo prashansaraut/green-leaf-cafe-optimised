@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>Cafe</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+<div class="top">
+  <div class="container">
+    <div class="logo">Green Leaf Cafe</div>
+    <div class="menu"><span onclick="go('about')">About</span><span onclick="go('menu')">Menu</span><span onclick="go('reviews')">Reviews</span><span onclick="go('book')">Book</span></div>
+  </div>
+</div>
+<div class="hero">
+  <div class="container">
+    <div class="herotext">
+      <div class="small">Open daily from 7 am</div>
+      <div class="big">Fresh coffee, made with care</div>
+      <div class="grey">Locally roasted beans, seasonal food and a calm place to sit down.</div>
+      <div class="button" onclick="go('book')">Book a table</div>
+    </div>
+    <img src="img/hero.png">
+  </div>
+</div>
+<div class="container section" id="about">
+  <h4>Our story</h4>
+  <div class="grey">We started in 2015 as a small neighbourhood stall. Today we serve fresh coffee, healthy meals and baked goods every day, using ingredients from nearby farms.</div>
+</div>
+<div class="container section" id="menu">
+  <h4>Our menu</h4>
+  <div class="cards">
+    <div class="card"><img src="img/coffee.png"><div class="title">Hot drinks</div><div class="grey">Espresso, cappuccino, filter coffee and herbal teas.</div></div>
+    <div class="card"><img src="img/bakery.png"><div class="title">Bakery</div><div class="grey">Fresh bread, croissants, muffins and cakes baked every morning.</div></div>
+    <div class="card"><img src="img/salad.png"><div class="title">Light meals</div><div class="grey">Sandwiches, salads and the soup of the day.</div></div>
+    <div class="card"><img src="img/tea.png"><div class="title">Teas and cold drinks</div><div class="grey">Iced tea, fresh lime soda and cold-pressed juices.</div></div>
+  </div>
+</div>
+<div class="container section" id="reviews">
+  <h4>What guests say</h4>
+  <div class="grey" style="font-size:18px;color:#aaa">The calmest cafe in the neighbourhood. The coffee is excellent.</div>
+  <div style="color:#bbb;font-size:12px">Anita R.</div>
+</div>
+<div class="container section" id="book">
+  <h4>Book a table</h4>
+  <div class="form">
+    <input type="text" placeholder="Name">
+    <input type="text" placeholder="Email">
+    <input type="text" placeholder="Date">
+    <div class="button" onclick="send()">Send request</div>
+  </div>
+</div>
+<div class="footer"><div class="container"><font color="#888888">12 Garden Road, Mumbai | Mon to Fri 7 am to 8 pm | 2026 Green Leaf Cafe</font></div></div>
+</body>
+</html>
